@@ -171,7 +171,7 @@ module Fluent
 
     # Internal constants.
     module InternalConstants
-      CREDENTIALS_PATH_ENV_VAR = 'GOOGLE_APPLICATION_CREDENTIALS'.freeze
+      CREDENTIALS_PATH_ENV_VAR = 'FLUENT_PLUGIN_GOOGLE_CLOUD_CREDENTIALS'.freeze
       DEFAULT_LOGGING_API_URL = 'https://logging.googleapis.com'.freeze
 
       # The label name of local_resource_id in the json payload. When a record
