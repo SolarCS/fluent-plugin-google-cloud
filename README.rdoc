@@ -1,5 +1,5 @@
 = CIPHER NOTE
-Some of this gem's dependencies' versions are incompatible with the current dependencies in both Banff and CallServer. The highest version that didn't run into any incompatibilites was too old, and the minimum (and ideal) version we need is <code>0.7.22</code>, so we checked-out a new branch from that version and updated the dependencies to serve our needs. Furthermore, since there is already a GCP account being used in both projects and we want to try to avoid using different service accounts across multiple projects (eventually it would become too chaotic), another change introduced here is to rename the environment variable used to authenticate the provided service account
+Some of this gem's dependencies' versions are incompatible with the current dependencies in both Banff and CallServer. The highest version that didn't run into any incompatibilites was too old, and the minimum (and ideal) version we need is <code>0.7.22</code>, so we checked-out a new branch from that version and updated the dependencies to serve our needs. 
 
 Updated dependencies:
 - <code>googleapis-common-protos</code>: from <code>'1.3.9'</code> to <code>'1.3.10'</code>
@@ -7,9 +7,6 @@ Updated dependencies:
 - <code>google-api-client</code>: from <code>'0.30.8'</code> to <code>'~> 0.26'</code>
 - <code>grpc</code>: from <code>'1.22'</code> to <code>'~> 1.25.0'</code>
 - <code>google-protobuf</code>: from <code>'3.9.0'</code> to <code>'~> 3.12'</code>
-
-Updated env var:
-- <code>GOOGLE_APPLICATION_CREDENTIALS</code> to <code>FLUENT_PLUGIN_GOOGLE_CLOUD_CREDENTIALS</code>
 
 
 = Google Cloud Logging plugin for {fluentd}[http://github.com/fluent/fluentd]
