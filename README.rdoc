@@ -8,9 +8,6 @@ Updated dependencies:
 - <code>grpc</code>: from <code>'1.22'</code> to <code>'~> 1.25.0'</code>
 - <code>google-protobuf</code>: from <code>'3.9.0'</code> to <code>'~> 3.12'</code>
 
-Updated env var:
-- <code>GOOGLE_APPLICATION_CREDENTIALS</code> to <code>FLUENT_PLUGIN_GOOGLE_CLOUD_CREDENTIALS</code>
-
 
 = Google Cloud Logging plugin for {fluentd}[http://github.com/fluent/fluentd]
 
